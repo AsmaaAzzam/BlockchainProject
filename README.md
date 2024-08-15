@@ -1,6 +1,5 @@
 
 
-![Uploading Blue Simple Minimalist Art Festival Event Ticket.png…]()
 
 
 
