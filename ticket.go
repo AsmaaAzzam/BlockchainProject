@@ -1,7 +1,14 @@
-package tickets
-
+// Ticket represents a ticket
 type Ticket struct {
-	EventID int    `json:"eventId"`
-	ID      int    `json:"id"`
-	Owner   string `json:"owner"`
+    ID        string `json:"id"`
+    EventID   string `json:"eventId"`
+    Status    string `json:"status"`
+}
+// NewTicket creates a new ticket
+func NewTicket(id, eventID, status string) *Ticket {
+    return &Ticket{
+        ID:        id,
+        EventID:   eventID,
+        Status:    status,
+    }
 }
