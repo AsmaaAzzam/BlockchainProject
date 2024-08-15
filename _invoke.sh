@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export CHANNEL_NAME=blockchain-camp
-export CHAINCODE_NAME=studentcc
+export CHANNEL_NAME=eventticket-project
+export CHAINCODE_NAME=eventticket
 
 cd ./fabric-samples/test-network
 

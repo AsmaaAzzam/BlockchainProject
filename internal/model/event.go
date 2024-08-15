@@ -9,7 +9,7 @@ type Event struct {
 }
 
 // new editing
-func New(ID, name, date, ticketsLeft, price string) *Event {
+func New(ID int, name string, date string , ticketsLeft, price int) *Event {
 	return &Event{
 		ID:          ID,
 		Name:        name,
